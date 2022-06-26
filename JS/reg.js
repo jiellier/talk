@@ -46,6 +46,6 @@ form.onsubmit = async function (e) {
     console.log(resp);
     if (resp.code === 0) {
         alert("注册成功");
-        location.href = "../login.html";
+        location.href = "./login.html";
     }
 };

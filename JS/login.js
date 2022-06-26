@@ -25,7 +25,7 @@ form.onsubmit = async function (e) {
     if (resp.code === 0) {
         // 登录成功
         alert("登录成功");
-        location.href = "../index.html";
+        location.href = "./index.html";
     } else {
         loginIdValidator.p.innerHTML = resp.msg;
     }

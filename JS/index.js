@@ -15,7 +15,7 @@
     if (!user) {
         // 如果user没有值，表示没有登录，跳转到登录页
         alert("您还未登录或登录已过期，请先登录");
-        location.href = "../login.html";
+        location.href = "./login.html";
         return;
     }
     // 将用户信息展示到侧边栏
