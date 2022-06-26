@@ -24,7 +24,7 @@
     // 注销事件
     doms.close.onclick = function () {
         API.logOut();
-        location.href = "../login.html";
+        location.href = "./login.html";
     };
 
     // 加载聊天记录
